@@ -4,7 +4,7 @@ This is a solution to the Basic HTML Website project from roadmap.sh.
 
 ## Project Page
 
-https://roadmap.sh/projects/basic-html-website
+https://roadmap.sh/projects/portfolio-website
 
 ## Live Project
 
