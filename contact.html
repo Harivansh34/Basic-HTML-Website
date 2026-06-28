@@ -23,6 +23,14 @@
         font-weight: 600;
         margin-top: 70%;
     }
+
+    @media(max-width:768px){
+        .form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
    </style>
 </head>
 <body style="margin:0px; min-height: 100vh;">
@@ -46,7 +54,9 @@
 <br><br>
 <hr>
 <br><br>
-<center><form>
+<center>
+    <div class="form">
+    <form>
     <label>Name</label>
     <input type="text">
     <br><br>
@@ -54,7 +64,9 @@
     <input type="email">
     <br><br>
     <button>Send</button>
-</form></center>
+</form>
+</div>
+</center>
 
 <footer>
     <p class="foot">© all rights are reserved 2026</p>
